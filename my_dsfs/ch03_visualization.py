@@ -53,8 +53,8 @@ plt.xticks([10 * i for i in range(11)])    # x-axis labels at 0, 10, ..., 100
 plt.xlabel("Decile")
 plt.ylabel("# of Students")
 plt.title("Distribution of Exam 1 Grades")
-# plt.show()
+plt.show()
 
 
-plt.savefig('im/viz_grades.png')
+# plt.savefig('im/viz_grades.png')
 plt.gca().clear()
