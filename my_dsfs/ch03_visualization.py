@@ -73,7 +73,7 @@ plt.ticklabel_format(useOffset=False)
 # misleading y-axis only shows the part above 500
 plt.axis([2016.5, 2018.5, 499, 506])
 plt.title("Look at the 'Huge' Increase!")
-# plt.show()
+plt.show()
 
-plt.savefig('im/viz_misleading_y_axis.png')
+# plt.savefig('im/viz_misleading_y_axis.png')
 plt.gca().clear()
